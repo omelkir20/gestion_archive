@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.cont{
+    position: relative;
+    width: 100%;
+}
+.navigation{
+    position: fixed;
+    width: 16%;
+    height: 100%;
+    background: #6C63FF;
+    transition: 0.5s;
+    overflow: hidden;
+    border-top-right-radius: 30px;
+}
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 90px;
+}
+.navigation ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.navigation ul li:hover{
+    background-color: #fff;
+
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.navigation ul li a:hover{
+    color: #6C63FF;
+}
+.icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+.title{
+    position: relative;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+li:hover a::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50px;
+    box-shadow: 35px 35px 0 10px #fff;
+    pointer-events: none;
+}
+li:hover a::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom:-50px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50px;
+    box-shadow: 35px -35px 0 10px #fff;
+    pointer-events: none;
+}
+.nav-collapsed{
+    width: 5.5%;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding: 0.938rem 0.938rem 0 0.938rem ;
+    width: 100%;
+}
+.logo{
+    background: #fff;
+    text-align: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 1000;
+    cursor: pointer;
+    border: none; 
+    color: #6C63FF;
+
+}
+.logo-text{
+    margin-left: 1.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+   
+}
+.pages1{
+    width: 94.5%;
+    margin-left: 8%;
+    padding-right: 5%;
+    padding-top:1%;
+    img{
+        width:3%;
+        height:3%;
+        float: right;
+    }
+
+}
+.pages2{
+    width: 84%;
+    margin-left:18%;
+    padding-right: 5%;
+    padding-top:1%;
+
+    img{
+        width:3%;
+        height:3%;
+        float: right;
+    }
+}
+label{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.title-collap{
+    color: transparent;
+}
+.nav2{
+    height: 2%;
+
+}
+.search{
+    width: 2rem;
+    height:2rem;
+    margin-left:5px;
+    display: inline-block;
+}
+
+.in{
+    padding-left: 10px;
+    border-color: #6C63FF;
+    width: 300px;
+    display: inline-block;
+    box-shadow: 2px 2px 2px #6C63FF;
+    height: 30px;
+    margin-left:20px;
+    margin-bottom: 20px;
+
+}
+
+.faicon{
+    width:1.75rem;
+     height:1.75rem;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <svg class="w-6 h-6 text-gray-800 dark:text-white" width="1.50rem" height="1.50rem" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m10 16 4-4-4-4"/>
+          </svg>
+        <h1>Stage</h1>
+        <div>
+            <input type="text" placeholder="Type de stage" class="form-control"/>
+            <input type="text"  placeholder="Durée de stage" class="form-control"/>
+            <button>Ajouter</button>
+        </div>
+        <table class="table table-striped tab">
+            <thead>
+              <tr>
+                <th scope="col">Type du groupe</th>
+                <th scope="col">Durée de stage</th>
+                <th scope="col" style="text-align: center;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Initiation</td>
+                <td>1 mois</td>
+                <td style="text-align: center;">
+                  <a href="#"><fa-icon [icon]="faTrashCan" class="icon"></fa-icon></a>
+                  <a href="#"><fa-icon [icon]="faFilePen" class="icon"></fa-icon></a>
+                  
+                </td>
+              </tr>
+              <tr>
+                <td>Perfectionnement</td>
+                <td>1 mois</td>
+                <td style="text-align: center;">
+                  <a href="#"><fa-icon [icon]="faTrashCan" class="icon"></fa-icon></a>
+                  <a href="#"><fa-icon [icon]="faFilePen" class="icon"></fa-icon></a>
+                  
+                </td>
+                <tr>
+                    <td>Fin d'etude</td>
+                    <td>3 mois</td>
+                    <td style="text-align: center;">
+                      <a href="#"><fa-icon [icon]="faTrashCan" class="icon"></fa-icon></a>
+                      <a href="#"><fa-icon [icon]="faFilePen" class="icon"></fa-icon></a>
+                      
+                    </td>
+                  </tr>
+                 
+              
+            </tbody>
+          </table>
+            
+    </body>
+</html>
+

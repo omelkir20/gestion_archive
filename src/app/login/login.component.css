@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;}
+.partie1{
+    width: 50%;
+    margin-left: 25%;
+}
+.partie2{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+.np{
+    margin-bottom: 5%;
+    width: 60%;
+}
+img{
+    width: 70%;
+    margin-left: 10%;
+    margin:50px 0px 50px 90px;
+}
+.lab{
+    display: block;
+    margin-bottom: 3%;
+}
+button{
+    margin-top: 30px;
+    margin-left: 450px;
+    color:white;
+    background-color: #6C63FF;
+    border: 1px #6C63FF solid;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2rem;
+
+}
+button:hover{
+    background-color:white;
+    color: #6C63FF;
+
+}
+.login{
+    margin-left: 30%;
+}
+.Ch{
+    margin-right: 10px;
+    margin-left: 25%;
+
+}
+a{
+    margin-left: 15%;
+    text-decoration: none;
+}
